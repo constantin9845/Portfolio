@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <script src="/scripts/main.js" defer></script>
+    <!-- email js-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+        emailjs.init("user_xmygUt80eZCdbsAu30mYv");
+    })();
+</script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konstantin Yakovlev</title>
+</head>
+<body>
+    <div class="container">
+        <main class="main_content">
+            <div id="landing_page" class="landing_page">
+                <div class="landing_page_background">
+                    <img id="landing_page_image" src="/images/landing_page.svg" alt="landing page">
+                </div>
+                <div class="fade_in_image">
+                    <img id="landing_page_fade_in" src="/images/landing_page_overlay.svg" alt="overlay" class="fade_in_landing">
+                </div>
+                <div class="landing_page_content">
+                    <div class="hello_text">
+                        <P><span class="hello_span">Hello,</span> <span class="name_span">I'm Konstantin.</span></P>
+                        <p><span class="webdev_span">A front-end web developer.</span></p>
+                    </div>
+                    <div class="explore_button_container">
+                        <div class="explore_button_content">
+                            <a id="explore_button" href="#about_page">Explore</a>
+                            <i class="explore_arrow"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="about_page" class="about_page">
+                <div class="about_page_title">
+                    <p>ABOUT.</p>
+                </div>
+                <div class="about_page_overlay">
+                    <img id="about_page_overlay" src="/images/about_page_overlay.png" alt="stars">
+                </div>
+                <div class="about_page_content">
+                    <div class="about_page_picture">
+                        <img class="profile_pic" src="/images/profile.png" alt="me">
+                    </div>
+                    <div class="about_page_text">
+                        <div class="about_page_bio">
+                            <p>Hello, let me introduce myself again.</p>
+                            <p>My name is Konstantin Yakovlev. I'm a front-end, <br> soon to be back-end web developer, <br> based in Antwerp, Belgium.</p>
+                            <p>I have a huge passion for web development, building state-of-the-art, user friendly websites (and soon Applications ;).</p>
+                            <p>I continiously seek for new technologies and follow the latest trends to build the best looking websites.</p>
+                        </div>
+                        <div class="about_page_skills">
+                            <div class="skills_pop_up_container">
+                                <div id="html_pop_up" class="skill_pop_up">
+                                    <h3>HTML</h3>
+                                    <p>Good understanding of most used HTML components.</p>
+                                    <p>Efficient at structuring the components for the easiest CSS interactions.</p>
+                                </div>
+                                <div id="js_pop_up" class="skill_pop_up">
+                                    <h3>JavaScript</h3>
+                                    <p>Mastered the basics of JavaScript neccesary for most interactions on the web page.</p>
+                                    <p>Continuing my expansion of Js libraries by learning Anime Js and Three Js to really step up my front-end animations.</p>
+                                </div>
+                                <div id="css_pop_up" class="skill_pop_up">
+                                    <h3>CSS</h3>
+                                    <p>Great CSS skills, understanding both flex and grid systems.</p>
+                                    <p>Know-how in responsive design as well as a basic understanding of SCSS.</p>
+                                </div>
+                                <div id="node_pop_up" class="skill_pop_up">
+                                    <h3>Node Js</h3>
+                                    <p>Currently learning the basics of node, a good understanding of npm.</p>
+                                    <p>Learning how to use packages like express and mongo DB to kick-start my back-end development.</p>
+                                </div>
+                                <div id="ux_pop_up" class="skill_pop_up">
+                                    <h3>UX / UI</h3>
+                                    <p>Designing wireframes in <a href="www.Wireframe.cc">Wireframe.cc</a></p>
+                                    <p>Making simple sketches to help me work faster and more efficient.</p>
+                                </div>
+                                <div id="git_pop_up" class="skill_pop_up">
+                                    <h3>GitHub / BitBucket</h3>
+                                    <p>Experience in using Git as well as Bitbucket.</p>
+                                    <p>Have used Git in order to work on projects together with others.</p>
+                                </div>
+                                <div id="photo_pop_up" class="skill_pop_up">
+                                    <h3>Photo Editing</h3>
+                                    <p>Understanding of some basic photo shop concepts.</p>
+                                    <p>For own projects I have used Canva, a much more simple, drag-drop platform for editing and creating pictures/elements.</p>
+                                </div>
+                                <div id="python_pop_up" class="skill_pop_up">
+                                    <h3>Python</h3>
+                                    <p>Basic knowledge of Python, have used it in combination with MySql before.</p>
+                                    <p>Check out some of my work with Python in the Projects section.</p>
+                                </div>
+                                <div id="c_pop_up" class="skill_pop_up">
+                                    <h3>C#</h3>
+                                    <p>Fundamental knowledge, having coded basic terminal apps before.</p>
+                                    <p>You can see some of my small C# projects in the projects section.</p>
+                                </div>
+                            </div>
+                            <div id="skill_title" class="skills_title">
+                                <p>My Skills</p>
+                            </div>
+                            <div class="skills_grid">
+                                <div id="skill_html" class="skill">
+                                    <p>HTML</p>
+                                </div>
+                                <div id="skill_js" class="skill">
+                                    <p>JavaScript</p>
+                                </div>
+                                <div id="skill_css" class="skill">
+                                    <p>CSS</p>
+                                </div>
+                                <div id="skill_node" class="skill">
+                                    <p>Node Js</p>
+                                </div>
+                                <div id="skill_ux" class="skill">
+                                    <p>UX/UI</p>
+                                </div>
+                                <div id="skill_git" class="skill">
+                                    <p>Git/BitBucket</p>
+                                </div>
+                                <div id="skill_responsive" class="skill">
+                                    <p>Photo Editing</p>
+                                </div>
+                                <div id="skill_python" class="skill">
+                                    <p>Python</p>
+                                </div>
+                                <div id="skill_c" class="skill">
+                                    <p>C#</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="projects_page" class="projects_page">
+                <div class="projects_page_img">
+                    <img src="/images/projects_page.png" alt="projects overlay" id="projects_page_img">
+                </div>
+                <div class="projects_page_overlay">
+                    <img src="/images/projects_page_overlay.svg" alt="projects overlay" id="projects_page_overlay">
+                </div>
+                <div class="projects_page_content">
+                    <div class="projects_page_title">
+                        <p>Projects.</p>
+                    </div>
+                    <div class="projects_page_links">
+                        <div id="sport_button" class="single_project">
+                            <p>Kyshtym Sportschool</p>
+                        </div>
+                        <div id="mystery_button" class="single_project">
+                            <p>Mystery Hunters</p>
+                        </div>
+                        <div class="single_project">
+                            <p>More coming soon...</p>
+                        </div>
+                    </div>
+                    <div class="projects_preview_content">
+                        <div id="sport_card" class="project_preview_card">
+                            <div class="preview_website">
+                                <a target="_blank" href="https://kyshtym-sport.herokuapp.com/"><img src="/images/preview_sport.PNG" alt="" class="preview_website_img"></a>
+                            </div>
+                            <div class="preview_text">
+                                <h3>Kyshtym Sportschool</h3>
+                                <p>This website was my first 'big' project. <br>To make a full website from scratch for a sport school in Russia.</p>
+                                <p>Here have i learned many new web development skills and was it my first time seeing some back-end. It wasn't much but it's a start!</p>
+                            </div>
+                        </div>
+                        <div id="mystery_card" class="project_preview_card">
+                            <div class="preview_website">
+                                <a target="_blank" href="https://mymysteries.herokuapp.com/"><img src="/images/preview_mystery.PNG" alt="" class="preview_website_img"></a>
+                            </div>
+                            <div class="preview_text">
+                                <h3>Mystery Hunters</h3>
+                                <p>A small and fairly simple personal projects of a blog-style website.</p>
+                                <p>I absolutely love the topic and dark style, I plan to expand this website much more in the future.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contact_page" class="contact_page">
+                <div class="contact_page_img">
+                    <img src="/images/contact_page.png" alt="contact" id="contact_page_img">
+                </div>
+                <div class="contact_page_overlay">
+                    <img src="/images/contact_page_overlay.svg" alt="contact overlay" id="contact_page_overlay">
+                </div>
+                <div class="contact_page_content">
+                    <div id="question_card" class="contact_page_question_form">
+                        <i id="close_button">&#10005;</i>
+                        <p>Ask/Tell me anything!</p>
+                        <input class="question_input" type="text" id="email" placeholder="Your Email?" required>
+                        <input class="question_input" type="text" id="fromName" placeholder="Name?" required>
+                        <textarea class="question_textarea" id="msg" cols="30" rows="10" placeholder="I would like to know if..." required></textarea>
+                        <button class="email_button" onclick="sendMail()">Send</button>
+                    </div>
+                    <div class="contact_page_title">
+                        <p>Contact.</p>
+                    </div>
+                    <div class="contact_page_info">
+                        <div class="contact_page_link">
+                            <p>Name: Konstantin Yakovlev</p>
+                        </div>
+                        <div class="contact_page_link">
+                            <p>Location: Antwerp, Belgium</p>
+                        </div>
+                        <div class="contact_page_link">
+                            <p>Email: constantin.y@outlook.com</p>
+                        </div>
+                        <div id="question_button" class="contact_page_link">
+                            <p>Question?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="side_tool">
+                <div class="side_tool_link">
+                    <a href="#landing_page">Start</a>
+                </div>
+                <div class="side_tool_link">
+                    <a href="#about_page">About</a>
+                </div>
+                <div class="side_tool_link">
+                    <a href="#projects_page">Projects</a>
+                </div>
+                <div class="side_tool_link">
+                    <a href="#contact_page">Contact</a>
+                </div>
+                <div class="side_tool_link">
+                    <a href="#">CV</a>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="container_mobile">
+        <div class="landing_page_mobile">
+            <header class="header_mobile">
+                <div class="header_name_mobile">
+                    <p>Konstantin</p>
+                    <p>Yakovlev</p>
+                </div>
+                <div class="header_menu_mobile">
+                    <div class="burger_button">
+
+                    </div>
+                    <div class="menu_container_mobile">
+                        <div class="menu_links_mobile">
+                            <a href="#">Home</a>
+                            <a href="#">About Me</a>
+                            <a href="#">My Work</a>
+                            <a href="#">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+    <script defer src="anime.min.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
